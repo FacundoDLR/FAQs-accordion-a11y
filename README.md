@@ -1,12 +1,13 @@
 # Frontend Mentor - FAQ accordion
 
-<!-- ![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg) -->
+![Design preview for the FAQ accordion coding challenge](https://fa-qs-accordion-a11y.vercel.app/design/desktop-preview.jpg)
 
 ## Welcome! 👋
-Hi stranger, sorry but I´m still working on the solution for this front-end coding challenge. In a few days a will publish it.
-<!-- Thanks for checking out this front-end coding challenge. -->
+Hi stranger! Let me intoriduce you to my new project. I hope you enjoy it and don´t forget, if you have any suggestion to help me improve my tech skill no doubt in touch me!! 🚀
 
-<!-- ## Table of contents
+Thanks for checking out this front-end coding challenge.
+
+## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -15,10 +16,8 @@ Hi stranger, sorry but I´m still working on the solution for this front-end cod
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -33,14 +32,14 @@ Your users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+<!-- ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpg) -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL over here](https://github.com/FacundoDLR/FAQs-accordion-a11y.git)
+- [Live Site URL over here](https://fa-qs-accordion-a11y.vercel.app/)
 
 ## My process
 
@@ -51,6 +50,7 @@ Your users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Accesibility WCAG AA
 
 ### What I learned
 
@@ -84,4 +84,4 @@ details summary::-webkit-details-marker {
 
 ## Author 🤩
 - GitHub - [FacundoDLR](https://github.com/FacundoDLR)
-- Frontend Mentor - [@FacundoDLR](https://www.frontendmentor.io/profile/FacundoDLR) -->
+- Frontend Mentor - [@FacundoDLR](https://www.frontendmentor.io/profile/FacundoDLR)
