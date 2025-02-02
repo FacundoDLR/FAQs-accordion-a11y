@@ -68,18 +68,18 @@ hr {
 
 .title {
   display: flex;
+  align-items: center;
   gap: 1.5rem;
-  color: var(--color-dark-purple);
-  font-size: var(--font-size-medium);
   margin-block-end: 2rem;
 }
-
-details {
-  display: flex;
-  flex-direction: column;
+.title h1 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-dark-purple);
 }
-details[open] {
-  gap: 1.5rem;
+
+.answer {
+  margin-block-start: 1.5rem;
 }
 
 summary {
@@ -90,6 +90,11 @@ summary {
   cursor: pointer;
   font-weight: bold;
   outline: none;
+}
+summary::-webkit-details-marker,
+summary::marker {
+  display: none;
+  content: '';
 }
 
 /* Efecto hover y focus */
