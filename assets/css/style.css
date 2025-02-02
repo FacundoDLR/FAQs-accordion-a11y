@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --font-primary: "Work Sans", sans-serif;
@@ -35,6 +35,7 @@ body {
   padding-block: 8.906rem;
   padding-block: clamp(8.906rem, 20vw, 10.469rem);
   font-family: var(--font-primary);
+  font-display: swap;
   background-color: var(--color-light-pink);
   position: relative;
 }
@@ -90,11 +91,15 @@ summary {
   cursor: pointer;
   font-weight: bold;
   outline: none;
+  -webkit-appearance: none; /* Remove default styles in WebKit (Safari, Chrome) */
+  appearance: none; /* For modern browsers */
+  overflow: hidden; /* Hide any forced icons */
 }
 summary::-webkit-details-marker,
 summary::marker {
   display: none;
-  content: '';
+  content: "";
+  appearance: none; /* For modern browsers */
 }
 
 /* Efecto hover y focus */
@@ -147,10 +152,8 @@ details[open] summary::after {
 }
 
 @media screen and (width >= 768px) {
-
   .bg-pattern {
     height: 20rem;
     background-image: url(../images/background-pattern-desktop.svg);
   }
-
 }
